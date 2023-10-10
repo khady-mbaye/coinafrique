@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec0{
+    /* width: 100%; */
+
+}
+header{
+    height:80px ;
+    background-color: #eeeeee;
+    z-index: 100;
+    position: relative;
+    bottom: 80px;
+
+}
+header img , nav img{
+    width: 50px;
+    height: 50px;
+}
+
+header #header .modal .modal-dialog .modal-content .modal-body ul li a:hover{
+    color: rgb(233, 169, 8);
+
+}
+/****************************************************** nav *****************************/
+nav{
+    height:80px ;
+    background-color: #eeeeee;
+    z-index: 5;
+  
+}
+
+nav span{
+    background-color: #ff0066;
+    border-radius: 50px;
+}
+#sec0 p{
+    padding: 100px 0px;
+}
+
+nav.stickey{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+   
+    
+}
+/************************************************ sec0-exit *****************************/
+/******************************** sec1 ********************************************/
+#sec1{
+    width: 100%;
+    background-image: url('coin-afrique-hero-image-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sec1 h1{
+    font-size: 46px;
+}
+#sec1 img{
+    width: 30px;
+    height: 30px;
+}
+#sec1 .dropdown a, #sec1 input{
+    border-radius: 50px;
+}
+
+/******************************** sec1-exit ********************************************/
+
+/******************************** sec2 ********************************************/
+#sec2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+/******************************** sec2-exit ********************************************/
+#sec4 .card{
+    background-color: white;
+    
+
+}
+
+#decor{
+    border-bottom: 1px solid black;
+}
+#sec4 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/******************************** footer-section ********************************************/
+footer{
+    width: 100%;
+    background-color: #336699;
+    color: #dddddd;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+@media (min-width:569px){
+    .decor{
+        border-left: 1px solid gray;
+    }
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+@media (max-width:568px){
+    .row{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .decor{
+        border-bottom: 2px solid gray;
+    }
+}
+/******************************** footer-section-exit ********************************************/
